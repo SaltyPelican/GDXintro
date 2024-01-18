@@ -50,6 +50,7 @@ public class AppHandler extends ApplicationAdapter {
 
 		 */
 
+		// hi
 		batch.end();
 
 		checkInput();
