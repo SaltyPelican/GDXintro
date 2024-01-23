@@ -30,45 +30,40 @@ public class TileHandler {
         worldTileArray.add(blackWorldTile);
 
         tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*1, spriteOnSheetHeight*1, spriteOnSheetWidth, spriteOnSheetHeight);
-        WorldTile whiteWorldTile = new WorldTile(tempRegion, 1, "white");
-        worldTileArray.add(whiteWorldTile);
+        WorldTile lightGrayWorldTile = new WorldTile(tempRegion, 1, "background color: light gray");
+        worldTileArray.add(lightGrayWorldTile);
 
         tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*0, spriteOnSheetHeight*1, spriteOnSheetWidth, spriteOnSheetHeight);
-        WorldTile darkRedWorldTile = new WorldTile(tempRegion, 2, "dark red");
-        worldTileArray.add(darkRedWorldTile);
+        WorldTile grayRedWorldTile = new WorldTile(tempRegion, 2, "gray");
+        worldTileArray.add(grayRedWorldTile);
 
         tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*0, spriteOnSheetHeight*2, spriteOnSheetWidth, spriteOnSheetHeight);
-        WorldTile mediumDarkRedWorldTile = new WorldTile(tempRegion, 3, "medium-dark red");
-        worldTileArray.add(mediumDarkRedWorldTile);
+        WorldTile darkgrayWorldTile = new WorldTile(tempRegion, 3, "dark gray");
+        worldTileArray.add(darkgrayWorldTile);
 
         tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*0, spriteOnSheetHeight*3, spriteOnSheetWidth, spriteOnSheetHeight);
-        WorldTile LredWorldTile = new WorldTile(tempRegion, 4, "Lred");
-        worldTileArray.add(LredWorldTile);
+        WorldTile darkGreenWorldTile = new WorldTile(tempRegion, 4, "dark green");
+        worldTileArray.add(darkGreenWorldTile);
 
         tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*0, spriteOnSheetHeight*4, spriteOnSheetWidth, spriteOnSheetHeight);
-        WorldTile lightRedWorldTile = new WorldTile(tempRegion, 5, "light red");
-        worldTileArray.add(lightRedWorldTile);
+        WorldTile lightGreenRedWorldTile = new WorldTile(tempRegion, 5, "light green");
+        worldTileArray.add(lightGreenRedWorldTile);
 
         tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*0, spriteOnSheetHeight*5, spriteOnSheetWidth, spriteOnSheetHeight);
-        WorldTile pinkWorldTile = new WorldTile(tempRegion, 6, "pink");
-        worldTileArray.add(pinkWorldTile);
+        WorldTile yellowWorldTile = new WorldTile(tempRegion, 6, "yellow");
+        worldTileArray.add(yellowWorldTile);
 
         tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*0, spriteOnSheetHeight*6, spriteOnSheetWidth, spriteOnSheetHeight);
-        WorldTile pinkishWhiteWorldTile = new WorldTile(tempRegion, 7, "pinkish white");
-        worldTileArray.add(pinkishWhiteWorldTile);
+        WorldTile whiteWorldTile = new WorldTile(tempRegion, 7, "white");
+        worldTileArray.add(whiteWorldTile);
 
         tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*0, spriteOnSheetHeight*7, spriteOnSheetWidth, spriteOnSheetHeight);
-        WorldTile darkGreenWorldTile = new WorldTile(tempRegion, 8, "dark green");
-        worldTileArray.add(darkGreenWorldTile);
+        WorldTile orangeGreenWorldTile = new WorldTile(tempRegion, 8, "orange");
+        worldTileArray.add(orangeGreenWorldTile);
 
         tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*0, spriteOnSheetHeight*8, spriteOnSheetWidth, spriteOnSheetHeight);
         WorldTile redWorldTile = new WorldTile(tempRegion, 9, "red");
         worldTileArray.add(redWorldTile);
-
-        tempRegion = new TextureRegion(tempTexture, spriteOnSheetWidth*0, spriteOnSheetHeight*3, spriteOnSheetWidth, spriteOnSheetHeight);
-        WorldTile lightGreenWorldTile = new WorldTile(tempRegion, 10,"light green");
-        worldTileArray.add(lightGreenWorldTile);
-
     }
 
     public Array<WorldTile> getWorldTileArray() {
